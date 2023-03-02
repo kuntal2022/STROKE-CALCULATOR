@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<h1>Stroke Calculator</h1>
+<style>
+body {
+background-color: rgb(132, 131, 139);
+background-image: url("python.jpg");
+
+background-size: cover; text-align: center;
+}
+
+
+form{
+    text-align: center;
+}
+select{width: 20%;text-align: center; font-size: 20px;}
+input{text-align: center;font-size: 30px;
+}
+input[type=submit]{background-color: green;width: 100;text-emphasis: 100;}
+
+
+label{font-size: 20px;
+display: inline-block;
+width: 100px;
+text-align: center;
+}
+label[type=Name]{background-color: yellow, ;}
+
+
+
+
+</style>
+
+<body>
+    <form action ="/submit" method="POST">
+            <label for="name"><b>Name:</b> </label><br>
+            
+            <input type="text" name="Name" id="Name" value="first_name last_name"><br><br><hr></hr>
+            <label for = "Diabetes"><b>Diabetes:</b> </label><br>
+            <select id="Diabetes" name="Diabetes"><br>
+                <option value="1">Yes</option><br>
+                <option value="0">No</option><br>
+                <option value="0">Others</option>
+            </select><br><br>
+
+    <label for="Cholesterol"><b>Cholesterol:</b></label><br>
+<select id="Cholesterol" name="Cholesterol"><br>
+            <option value="1">Yes</option><br>
+            <option value="0">No</option><br>
+            <option value="0">Others</option><br>
+        </select><br><br>
+
+        <label for="Alcohol"><b>Alcohol</b>:</label><br>
+        <select id="Alcohol" name="Alcohol"><br>
+            <option value="1">Yes</option><br>
+            <option value="0">No</option><br>
+            <option value="0">Others</option><br>
+        </select><br><br>
+
+            <label for="Smoking"><b>Smoking:</b></label><br>
+            <select id="Smoking" name="Smoking">
+                <option value="1">Yes</option><br>
+                <option value="0">No</option><br>
+                <option value="0">Others</option>
+            </select><br><br>
+
+            <input type="Submit" value="Submit"><br><br>
+            <h3> Done By Kuntal Chakraborty</h3>
+
+
+</form>
+</body></html>
